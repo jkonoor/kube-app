@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vprodb
-          image: jkonoor/vprodb:V1
+          image: jkonoor/vprodb:v1
           args:
             - "--ignore-db-dir=lost+found"
           volumeMounts:
